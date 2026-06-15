@@ -27,9 +27,36 @@ export const GEOMETRY_OVERRIDES = {
   // id_prodotto: { internalColumnDistanceMm, columnOffsetMm, armMountDistanceMm,
   //                frontArm:{minMm,maxMm}, rearArm:{minMm,maxMm} }
   //
-  // ESEMPIO VERIFICATO (fact-check) — C3.5S, cod. 13169, scheda "cascos senza pedana.pdf" p.7:
-  // la distanza tra gli attacchi bracci nel disegno in pianta è 620 mm (non 500 template).
-  c35s: { armMountDistanceMm: 620 },
+  // ── FACT-CHECK giugno 2026 — TUTTI i 19 modelli a 2 colonne (schede catalogo) ──
+  // armMountDistanceMm = la quota verticale del CARRELLO nel disegno in pianta delle
+  // versioni SENZA pedana: 620 mm per la classe 3,2/3,5/4 t e 750 mm per la classe
+  // 5/5,5 t. ATTENZIONE: le versioni CON pedana quotano in pianta il telaio base a
+  // terra (1400 / 1480 / 1700 mm) — è una feature diversa, NON la distanza attacchi
+  // bracci. Il carrello è identico al gemello senza pedana, quindi si usa lo stesso
+  // valore (620 / 750). columnOffsetMm (rientro perni) non è leggibile dalle schede:
+  // resta al default template (120 mm) — unico campo ancora non verificato.
+  //
+  // Classe 3,2 / 3,5 / 4 t → carrello 620 mm
+  c32:          { armMountDistanceMm: 620 }, // 13120E  C3.2          (con pedana,  base 1400)
+  c32_confort:  { armMountDistanceMm: 620 }, // 13120C  C3.2 Confort  (con pedana,  base 1400)
+  c32s:         { armMountDistanceMm: 620 }, // 13120SE C3.2S         (senza pedana, quota 620)
+  c32s_confort: { armMountDistanceMm: 620 }, // 13120SC C3.2S Confort (senza pedana, quota 620; bracci asimmetrici)
+  c35:          { armMountDistanceMm: 620 }, // 13168   C3.5          (con pedana,  base 1480)
+  c35s:         { armMountDistanceMm: 620 }, // 13169   C3.5S         (senza pedana, quota 620 — esempio storico)
+  c35xl:        { armMountDistanceMm: 620 }, // 13191   C3.5 XL       (con pedana,  base 1480)
+  c35s_xl:      { armMountDistanceMm: 620 }, // 13192   C3.5S XL      (senza pedana, quota 620)
+  c4:           { armMountDistanceMm: 620 }, // 13194   C4            (con pedana,  base 1480)
+  c4xl:         { armMountDistanceMm: 620 }, // 13198   C4 XL         (con pedana,  base 1480)
+  c4s:          { armMountDistanceMm: 620 }, // 13194S  C4S           (senza pedana, quota 620)
+  c4s_xl:       { armMountDistanceMm: 620 }, // 13198S  C4S XL        (senza pedana, quota 620)
+  // Classe 5 / 5,5 t → carrello 750 mm
+  c5wagon:      { armMountDistanceMm: 750, internalColumnDistanceMm: 2810 }, // 13176 C5 Wagon — interno 2810 (NON 3000), con pedana base 1700
+  c5s_wagon:    { armMountDistanceMm: 750 }, // 13177   C5S Wagon     (senza pedana, interno 3000, quota 750)
+  c5xlwagon:    { armMountDistanceMm: 750 }, // 13201   C5 XL Wagon   (con pedana,  base 1700)
+  c55:          { armMountDistanceMm: 750 }, // 13998   C5.5          (con pedana,  base 1700)
+  c55s:         { armMountDistanceMm: 750 }, // 13998S  C5.5S         (senza pedana, quota 750)
+  c55wagon:     { armMountDistanceMm: 750 }, // 13988   C5.5 Wagon    (con pedana,  base 1700)
+  c55s_wagon:   { armMountDistanceMm: 750 }, // 13988S  C5.5S Wagon   (senza pedana, quota 750)
 };
 
 // ── Parser delle note tecniche ──────────────────────────────────────────────

@@ -37,9 +37,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 2700,
+      "armMountDistanceMm": 620,
+      "frontArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      },
+      "rearArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      }
+    },
+    "note": [
+      "Versione CON pedana: la quota verticale in pianta è 1480 mm = profondità del telaio base a terra, NON la distanza attacchi bracci. armMount=620 mm dal carrello (identico al gemello senza pedana).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13169",
@@ -80,10 +94,20 @@
       "internalColumnDistanceMm"
     ],
     "verificato": {
-      "armMountDistanceMm": 620
+      "internalColumnDistanceMm": 2700,
+      "armMountDistanceMm": 620,
+      "frontArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      },
+      "rearArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      }
     },
     "note": [
-      "ESEMPIO: armMountDistanceMm=620 letto dal disegno in pianta (scheda p.7). Override applicato in geometry.js."
+      "Versione SENZA pedana: quota verticale carrello in pianta = 620 mm (= armMountDistanceMm).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
     ],
     "status": "verificato"
   },
@@ -125,11 +149,24 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
+    "verificato": {
+      "internalColumnDistanceMm": 2810,
+      "armMountDistanceMm": 750,
+      "frontArm": {
+        "minMm": 855,
+        "maxMm": 1810
+      },
+      "rearArm": {
+        "minMm": 855,
+        "maxMm": 1810
+      }
+    },
     "note": [
-      "Interno colonne: PDF=2810 ≠ note=3000"
+      "Versione CON pedana: la quota verticale in pianta è 1700 mm = profondità del telaio base a terra, NON la distanza attacchi bracci. armMount=750 mm dal carrello (identico al gemello senza pedana).",
+      "CORREZIONE: interno colonne 3000 ⇒ 2810 (scheda elevazione/pianta); corretto anche in products.json (e H.Max 1970⇒2000).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
     ],
-    "status": "todo"
+    "status": "verificato"
   },
   {
     "codice": "13177",
@@ -169,9 +206,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 3000,
+      "armMountDistanceMm": 750,
+      "frontArm": {
+        "minMm": 855,
+        "maxMm": 1810
+      },
+      "rearArm": {
+        "minMm": 855,
+        "maxMm": 1810
+      }
+    },
+    "note": [
+      "Versione SENZA pedana: quota verticale carrello in pianta = 750 mm (= armMountDistanceMm).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13191",
@@ -211,9 +262,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 3000,
+      "armMountDistanceMm": 620,
+      "frontArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      },
+      "rearArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      }
+    },
+    "note": [
+      "Versione CON pedana: la quota verticale in pianta è 1480 mm = profondità del telaio base a terra, NON la distanza attacchi bracci. armMount=620 mm dal carrello (identico al gemello senza pedana).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13192",
@@ -253,9 +318,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 3000,
+      "armMountDistanceMm": 620,
+      "frontArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      },
+      "rearArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      }
+    },
+    "note": [
+      "Versione SENZA pedana: quota verticale carrello in pianta = 620 mm (= armMountDistanceMm).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13194",
@@ -295,9 +374,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 2700,
+      "armMountDistanceMm": 620,
+      "frontArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      },
+      "rearArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      }
+    },
+    "note": [
+      "Versione CON pedana: la quota verticale in pianta è 1480 mm = profondità del telaio base a terra, NON la distanza attacchi bracci. armMount=620 mm dal carrello (identico al gemello senza pedana).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13198",
@@ -337,9 +430,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 3000,
+      "armMountDistanceMm": 620,
+      "frontArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      },
+      "rearArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      }
+    },
+    "note": [
+      "Versione CON pedana: la quota verticale in pianta è 1480 mm = profondità del telaio base a terra, NON la distanza attacchi bracci. armMount=620 mm dal carrello (identico al gemello senza pedana).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13201",
@@ -379,9 +486,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 3130,
+      "armMountDistanceMm": 750,
+      "frontArm": {
+        "minMm": 855,
+        "maxMm": 1810
+      },
+      "rearArm": {
+        "minMm": 855,
+        "maxMm": 1810
+      }
+    },
+    "note": [
+      "Versione CON pedana: la quota verticale in pianta è 1700 mm = profondità del telaio base a terra, NON la distanza attacchi bracci. armMount=750 mm dal carrello (identico al gemello senza pedana).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13331",
@@ -841,9 +962,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 2810,
+      "armMountDistanceMm": 750,
+      "frontArm": {
+        "minMm": 823,
+        "maxMm": 1505
+      },
+      "rearArm": {
+        "minMm": 823,
+        "maxMm": 1505
+      }
+    },
+    "note": [
+      "Versione CON pedana: la quota verticale in pianta è 1700 mm = profondità del telaio base a terra, NON la distanza attacchi bracci. armMount=750 mm dal carrello (identico al gemello senza pedana).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13998",
@@ -883,9 +1018,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 2810,
+      "armMountDistanceMm": 750,
+      "frontArm": {
+        "minMm": 705,
+        "maxMm": 1335
+      },
+      "rearArm": {
+        "minMm": 705,
+        "maxMm": 1335
+      }
+    },
+    "note": [
+      "Versione CON pedana: la quota verticale in pianta è 1700 mm = profondità del telaio base a terra, NON la distanza attacchi bracci. armMount=750 mm dal carrello (identico al gemello senza pedana).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13120E",
@@ -925,9 +1074,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 2700,
+      "armMountDistanceMm": 620,
+      "frontArm": {
+        "minMm": 710,
+        "maxMm": 1050
+      },
+      "rearArm": {
+        "minMm": 710,
+        "maxMm": 1050
+      }
+    },
+    "note": [
+      "Versione CON pedana: la quota verticale in pianta è 1400 mm = profondità del telaio base a terra, NON la distanza attacchi bracci. armMount=620 mm dal carrello (identico al gemello senza pedana).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13120C",
@@ -967,9 +1130,24 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 2700,
+      "armMountDistanceMm": 620,
+      "frontArm": {
+        "minMm": 597,
+        "maxMm": 1122
+      },
+      "rearArm": {
+        "minMm": 710,
+        "maxMm": 1050
+      }
+    },
+    "note": [
+      "Versione CON pedana: la quota verticale in pianta è 1400 mm = profondità del telaio base a terra, NON la distanza attacchi bracci. armMount=620 mm dal carrello (identico al gemello senza pedana).",
+      "CORREZIONE: aggiunto interno 2700 mancante nella nota products.json (rimuove avviso template).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13120SE",
@@ -1009,9 +1187,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 2700,
+      "armMountDistanceMm": 620,
+      "frontArm": {
+        "minMm": 710,
+        "maxMm": 1050
+      },
+      "rearArm": {
+        "minMm": 710,
+        "maxMm": 1050
+      }
+    },
+    "note": [
+      "Versione SENZA pedana: quota verticale carrello in pianta = 620 mm (= armMountDistanceMm).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13120SC",
@@ -1051,9 +1243,24 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 2700,
+      "armMountDistanceMm": 620,
+      "frontArm": {
+        "minMm": 597,
+        "maxMm": 1122
+      },
+      "rearArm": {
+        "minMm": 710,
+        "maxMm": 1050
+      }
+    },
+    "note": [
+      "Versione SENZA pedana: quota verticale carrello in pianta = 620 mm (= armMountDistanceMm).",
+      "CORREZIONE: rearArm 597→1122 ⇒ 710→1050 (braccio posteriore DOPPIO 710→1050, non triplo); aggiunto interno 2700 mancante nella nota.",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13194S",
@@ -1093,9 +1300,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 2700,
+      "armMountDistanceMm": 620,
+      "frontArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      },
+      "rearArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      }
+    },
+    "note": [
+      "Versione SENZA pedana: quota verticale carrello in pianta = 620 mm (= armMountDistanceMm).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13198S",
@@ -1135,9 +1356,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 3000,
+      "armMountDistanceMm": 620,
+      "frontArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      },
+      "rearArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      }
+    },
+    "note": [
+      "Versione SENZA pedana: quota verticale carrello in pianta = 620 mm (= armMountDistanceMm).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13998S",
@@ -1177,9 +1412,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 2810,
+      "armMountDistanceMm": 750,
+      "frontArm": {
+        "minMm": 705,
+        "maxMm": 1335
+      },
+      "rearArm": {
+        "minMm": 705,
+        "maxMm": 1335
+      }
+    },
+    "note": [
+      "Versione SENZA pedana: quota verticale carrello in pianta = 750 mm (= armMountDistanceMm).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13988S",
@@ -1219,9 +1468,23 @@
       "rearArm",
       "internalColumnDistanceMm"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "internalColumnDistanceMm": 2810,
+      "armMountDistanceMm": 750,
+      "frontArm": {
+        "minMm": 758,
+        "maxMm": 1505
+      },
+      "rearArm": {
+        "minMm": 758,
+        "maxMm": 1505
+      }
+    },
+    "note": [
+      "Versione SENZA pedana: quota verticale carrello in pianta = 750 mm (= armMountDistanceMm).",
+      "columnOffsetMm (rientro perni) non leggibile dalle schede: resta template (120 mm)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13351FIR",

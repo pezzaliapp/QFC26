@@ -35,7 +35,7 @@
       "van"
     ],
     "famiglia": "C3.2",
-    "noteTecniche": "H.Min 100mm - H.Max 1960mm. 2 braccia triple (597→1122mm) + 2 braccia doppie (710→1050mm). 400/230V - 3.7kW.",
+    "noteTecniche": "H.Min 100mm - H.Max 1960mm. Larghezza portale 2700mm. 2 braccia triple (597→1122mm) + 2 braccia doppie (710→1050mm). 400/230V - 3.7kW.",
     "categoria": "2 Col. con Pedana",
     "tipo_sollevatore": "2_colonne",
     "badge": "Alternativa"
@@ -133,7 +133,7 @@
       "camper"
     ],
     "famiglia": "C5",
-    "noteTecniche": "H.Min 150mm - H.Max 1970mm. Larghezza portale 3000mm. 4 braccia triple 855→1810mm. Specifico per grandi furgoni. 400/230V - 3+3kW.",
+    "noteTecniche": "H.Min 150mm - H.Max 2000mm. Larghezza portale 2810mm. 4 braccia triple 855→1810mm. Specifico per grandi furgoni. 400/230V - 3+3kW.",
     "categoria": "2 Col. con Pedana",
     "tipo_sollevatore": "2_colonne",
     "badge": "Consigliato"
@@ -232,7 +232,7 @@
       "van"
     ],
     "famiglia": "C3.2S",
-    "noteTecniche": "H.Min 100mm - H.Max 1960mm. 2 braccia triple (597→1122mm) + 2 braccia doppie. Sistema ILC. 400/230V - 2.2+2.2kW.",
+    "noteTecniche": "H.Min 100mm - H.Max 1960mm. Larghezza portale 2700mm. 2 braccia triple (597→1122mm) + 2 braccia doppie (710→1050mm). Sistema ILC. 400/230V - 2.2+2.2kW.",
     "categoria": "2 Col. senza Pedana",
     "tipo_sollevatore": "2_colonne",
     "badge": "Alternativa"
