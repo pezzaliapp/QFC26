@@ -190,3 +190,75 @@ export function getVehicle(id) {
 export function buildGeometries(products) {
   return products.map(toGeometry).filter(Boolean);
 }
+
+// ════════════════════════════════════════════════════════════════════════════
+// 4 COLONNE · modello "drive-on" (pedane)  — F5
+// ----------------------------------------------------------------------------
+// I 4 colonne NON usano i bracci: il veicolo sale con le 4 ruote su due pedane
+// piane (runway). Modello geometrico diverso → motore separato (engine/drive-on.js).
+//
+// Misure pedane VERIFICATE dalle schede catalogo (fact-check giugno 2026, disegni
+// isometrici quotati in "cascos 4 colonne.pdf"):
+//   - runwayLengthMm = lunghezza pedana (campo "Pedane … mm")
+//   - runwayWidthMm  = larghezza di UNA pedana (piastra isolata quotata nel disegno)
+//   - runwayClearanceMm {minMm,maxMm} = luce interna fra le due pedane (regolabile)
+// La carreggiata ruote ammessa è quindi [clearanceMin, clearanceMax + 2·width].
+// ════════════════════════════════════════════════════════════════════════════
+export const DRIVEON_OVERRIDES = {
+  // id:        { runwayLengthMm, runwayWidthMm, runwayClearanceMm:{minMm,maxMm} }
+  c440:      { runwayLengthMm: 4335, runwayWidthMm: 500, runwayClearanceMm: { minMm: 767, maxMm: 1017 } }, // 13340
+  c442:      { runwayLengthMm: 4335, runwayWidthMm: 500, runwayClearanceMm: { minMm: 767, maxMm: 1017 } }, // 13442 (assetto, stesso pianale del C440)
+  c443:      { runwayLengthMm: 4800, runwayWidthMm: 630, runwayClearanceMm: { minMm: 740, maxMm: 990 } },  // 13381
+  c445:      { runwayLengthMm: 4800, runwayWidthMm: 630, runwayClearanceMm: { minMm: 656, maxMm: 906 } },  // 13380
+  c443h:     { runwayLengthMm: 4800, runwayWidthMm: 630, runwayClearanceMm: { minMm: 740, maxMm: 990 } },  // 13370
+  c445h:     { runwayLengthMm: 4800, runwayWidthMm: 630, runwayClearanceMm: { minMm: 740, maxMm: 990 } },  // 13359
+  c450xl:    { runwayLengthMm: 5700, runwayWidthMm: 530, runwayClearanceMm: { minMm: 684, maxMm: 1184 } }, // 13376
+  c455xl:    { runwayLengthMm: 5700, runwayWidthMm: 530, runwayClearanceMm: { minMm: 684, maxMm: 1184 } }, // 13377
+  c450plus:  { runwayLengthMm: 5200, runwayWidthMm: 630, runwayClearanceMm: { minMm: 715, maxMm: 965 } },  // 13378
+  c455plus:  { runwayLengthMm: 5200, runwayWidthMm: 630, runwayClearanceMm: { minMm: 715, maxMm: 965 } },  // 13379
+  c450h:     { runwayLengthMm: 5200, runwayWidthMm: 630, runwayClearanceMm: { minMm: 740, maxMm: 990 } },  // 13371
+  c455h:     { runwayLengthMm: 5200, runwayWidthMm: 630, runwayClearanceMm: { minMm: 740, maxMm: 990 } },  // 13367
+  c450_toro: { runwayLengthMm: 4912, runwayWidthMm: 615, runwayClearanceMm: { minMm: 350, maxMm: 400 } },  // 13351FIR (incassato, sport)
+  c470:      { runwayLengthMm: 6240, runwayWidthMm: 580, runwayClearanceMm: { minMm: 750, maxMm: 1200 } }, // 13333
+  c472:      { runwayLengthMm: 6240, runwayWidthMm: 580, runwayClearanceMm: { minMm: 750, maxMm: 1200 } }, // 13339 (assetto truck)
+  c4100:     { runwayLengthMm: 7000, runwayWidthMm: 700, runwayClearanceMm: { minMm: 750, maxMm: 1200 } }, // 13331
+};
+
+/** Estrae la lunghezza pedana dal campo noteTecniche ("Pedane … mm"). */
+function parsePedanaLength(note = '') {
+  const m = note.match(/Pedane\s*(\d{3,4})\s*mm/i);
+  return m ? parseInt(m[1], 10) : null;
+}
+
+/**
+ * Converte un prodotto Cascos a 4 colonne in una geometria "drive-on".
+ * Restituisce null per i 2 colonne (usano il modello a bracci).
+ */
+export function toDriveOnGeometry(product) {
+  if (product.tipo_sollevatore !== '4_colonne') return null;
+  const ov = DRIVEON_OVERRIDES[product.id] || {};
+  const parsed = parseNote(product.noteTecniche);
+  const runwayLengthMm = ov.runwayLengthMm ?? parsePedanaLength(product.noteTecniche) ?? null;
+  const runwayWidthMm = ov.runwayWidthMm ?? null;
+  const runwayClearanceMm = ov.runwayClearanceMm ?? null;
+  // Template finché larghezza o luce interna non sono verificate.
+  const template = !(ov.runwayWidthMm && ov.runwayClearanceMm);
+  return {
+    id: product.id,
+    code: product.modello,
+    type: '4_colonne',
+    capacityKg: product.portataKg,
+    runwayLengthMm,
+    runwayWidthMm,
+    runwayClearanceMm,
+    minPadHeightMm: parsed.minPadHeightMm,
+    maxLiftHeightMm: parsed.maxLiftHeightMm,
+    template,
+    source: product.codice ? `Cascos cod. ${product.codice}` : 'Cascos',
+  };
+}
+
+/** Lista di tutte le geometrie 4 colonne (drive-on) da un array di prodotti. */
+export function buildDriveOnGeometries(products) {
+  return products.map(toDriveOnGeometry).filter(Boolean);
+}

@@ -694,18 +694,18 @@ function ProductCard({ product, isRecommended, onSelect, onSimulate, mode, alrea
         {product.noteTecniche}
       </div>
 
-      {(hasPdf || (!is4Col && onSimulate)) && (
+      {(hasPdf || onSimulate) && (
         <div className="border-t border-slate-700/50 pt-3 mb-3 flex flex-wrap items-center gap-2">
           {hasPdf && (
             <SchedaTecnicaButton codice={product.codice} modello={product.modello} compact />
           )}
-          {!is4Col && onSimulate && (
+          {onSimulate && (
             <button
               onClick={() => onSimulate(product)}
               className="flex items-center gap-1.5 bg-amber-500/15 hover:bg-amber-500/25 border border-amber-500/40 text-amber-300 text-xs font-semibold px-3 py-1.5 rounded-lg transition-colors"
-              title="Apri il simulatore geometrico per questo modello"
+              title={is4Col ? 'Apri il simulatore drive-on per questo modello' : 'Apri il simulatore geometrico per questo modello'}
             >
-              <Activity size={13} /> Simula presa bracci
+              <Activity size={13} /> {is4Col ? 'Simula drive-on' : 'Simula presa bracci'}
             </button>
           )}
         </div>
@@ -1758,12 +1758,13 @@ export default function App() {
 
   const handleGoToQuote = () => setView('quote');
 
-  // Apre il simulatore precompilato su un modello a 2 colonne, con il veicolo
-  // idoneo della configurazione corrente.
+  // Apre il simulatore precompilato sul modello scelto, nella modalità giusta
+  // (2 colonne = bracci, 4 colonne = drive-on), con il veicolo della config corrente.
   const handleSimulate = (product) => {
     setSimTarget({
       liftId: product.id,
       vehId: config?.veicolo || null,
+      mode: product.tipo_sollevatore === '4_colonne' ? '4col' : '2col',
     });
     setView('simulator');
   };
@@ -1861,6 +1862,7 @@ export default function App() {
             products={products}
             initialLiftId={simTarget?.liftId || null}
             initialVehId={simTarget?.vehId || null}
+            initialMode={simTarget?.mode || '2col'}
             onBack={() => { setView(config ? 'results' : 'dashboard'); setSimTarget(null); }}
           />
         )}

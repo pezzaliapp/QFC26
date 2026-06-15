@@ -528,9 +528,27 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 7000,
+      "larghezzaRunwayMm": 700,
+      "luceInternaRunwayMm": {
+        "minMm": 750,
+        "maxMm": 1200
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1450,
+        "maxMm": 1900
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 750,
+        "maxMm": 2600
+      },
+      "portataKg": 12000
+    },
+    "note": [
+      "Drive-on: pedana 7000 mm, runway singola 700 mm, luce interna regolabile 750–1200 mm → carreggiata ruote ammessa 750–2600 mm. Portata 12000 kg."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13333",
@@ -556,9 +574,27 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 6240,
+      "larghezzaRunwayMm": 580,
+      "luceInternaRunwayMm": {
+        "minMm": 750,
+        "maxMm": 1200
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1330,
+        "maxMm": 1780
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 750,
+        "maxMm": 2360
+      },
+      "portataKg": 7000
+    },
+    "note": [
+      "Drive-on: pedana 6240 mm, runway singola 580 mm, luce interna regolabile 750–1200 mm → carreggiata ruote ammessa 750–2360 mm. Portata 7000 kg."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13339",
@@ -584,9 +620,28 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 6240,
+      "larghezzaRunwayMm": 580,
+      "luceInternaRunwayMm": {
+        "minMm": 750,
+        "maxMm": 1200
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1330,
+        "maxMm": 1780
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 750,
+        "maxMm": 2360
+      },
+      "portataKg": 7000
+    },
+    "note": [
+      "Drive-on: pedana 6240 mm, runway singola 580 mm, luce interna regolabile 750–1200 mm → carreggiata ruote ammessa 750–2360 mm. Portata 7000 kg.",
+      "Assetto truck; stesso pianale del C470 (tot. 7580 con rampe)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13340",
@@ -612,9 +667,27 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 4335,
+      "larghezzaRunwayMm": 500,
+      "luceInternaRunwayMm": {
+        "minMm": 767,
+        "maxMm": 1017
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1267,
+        "maxMm": 1517
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 767,
+        "maxMm": 2017
+      },
+      "portataKg": 4000
+    },
+    "note": [
+      "Drive-on: pedana 4335 mm, runway singola 500 mm, luce interna regolabile 767–1017 mm → carreggiata ruote ammessa 767–2017 mm. Portata 4000 kg."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13359",
@@ -640,9 +713,28 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 4800,
+      "larghezzaRunwayMm": 630,
+      "luceInternaRunwayMm": {
+        "minMm": 740,
+        "maxMm": 990
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1370,
+        "maxMm": 1620
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 740,
+        "maxMm": 2250
+      },
+      "portataKg": 4000
+    },
+    "note": [
+      "Drive-on: pedana 4800 mm, runway singola 630 mm, luce interna regolabile 740–990 mm → carreggiata ruote ammessa 740–2250 mm. Portata 4000 kg.",
+      "990 letto a disegno; range come C443H (stesso pianale 4800)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13367",
@@ -668,9 +760,28 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 5200,
+      "larghezzaRunwayMm": 630,
+      "luceInternaRunwayMm": {
+        "minMm": 740,
+        "maxMm": 990
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1370,
+        "maxMm": 1620
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 740,
+        "maxMm": 2250
+      },
+      "portataKg": 5000
+    },
+    "note": [
+      "Drive-on: pedana 5200 mm, runway singola 630 mm, luce interna regolabile 740–990 mm → carreggiata ruote ammessa 740–2250 mm. Portata 5000 kg.",
+      "Con sollevatore aux integrato 3500 kg; assetto."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13370",
@@ -696,9 +807,28 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 4800,
+      "larghezzaRunwayMm": 630,
+      "luceInternaRunwayMm": {
+        "minMm": 740,
+        "maxMm": 990
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1370,
+        "maxMm": 1620
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 740,
+        "maxMm": 2250
+      },
+      "portataKg": 4000
+    },
+    "note": [
+      "Drive-on: pedana 4800 mm, runway singola 630 mm, luce interna regolabile 740–990 mm → carreggiata ruote ammessa 740–2250 mm. Portata 4000 kg.",
+      "Con sollevatore aux integrato 3500 kg (non incide sulla geometria pedane)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13371",
@@ -724,9 +854,28 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 5200,
+      "larghezzaRunwayMm": 630,
+      "luceInternaRunwayMm": {
+        "minMm": 740,
+        "maxMm": 990
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1370,
+        "maxMm": 1620
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 740,
+        "maxMm": 2250
+      },
+      "portataKg": 5000
+    },
+    "note": [
+      "Drive-on: pedana 5200 mm, runway singola 630 mm, luce interna regolabile 740–990 mm → carreggiata ruote ammessa 740–2250 mm. Portata 5000 kg.",
+      "Con sollevatore aux integrato 3500 kg."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13376",
@@ -752,9 +901,27 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 5700,
+      "larghezzaRunwayMm": 530,
+      "luceInternaRunwayMm": {
+        "minMm": 684,
+        "maxMm": 1184
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1214,
+        "maxMm": 1714
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 684,
+        "maxMm": 2244
+      },
+      "portataKg": 5000
+    },
+    "note": [
+      "Drive-on: pedana 5700 mm, runway singola 530 mm, luce interna regolabile 684–1184 mm → carreggiata ruote ammessa 684–2244 mm. Portata 5000 kg."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13377",
@@ -780,9 +947,28 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 5700,
+      "larghezzaRunwayMm": 530,
+      "luceInternaRunwayMm": {
+        "minMm": 684,
+        "maxMm": 1184
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1214,
+        "maxMm": 1714
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 684,
+        "maxMm": 2244
+      },
+      "portataKg": 5000
+    },
+    "note": [
+      "Drive-on: pedana 5700 mm, runway singola 530 mm, luce interna regolabile 684–1184 mm → carreggiata ruote ammessa 684–2244 mm. Portata 5000 kg.",
+      "Versione assetto; stesso pianale del C450 XL."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13378",
@@ -808,9 +994,27 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 5200,
+      "larghezzaRunwayMm": 630,
+      "luceInternaRunwayMm": {
+        "minMm": 715,
+        "maxMm": 965
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1345,
+        "maxMm": 1595
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 715,
+        "maxMm": 2225
+      },
+      "portataKg": 5500
+    },
+    "note": [
+      "Drive-on: pedana 5200 mm, runway singola 630 mm, luce interna regolabile 715–965 mm → carreggiata ruote ammessa 715–2225 mm. Portata 5500 kg."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13379",
@@ -836,9 +1040,28 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 5200,
+      "larghezzaRunwayMm": 630,
+      "luceInternaRunwayMm": {
+        "minMm": 715,
+        "maxMm": 965
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1345,
+        "maxMm": 1595
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 715,
+        "maxMm": 2225
+      },
+      "portataKg": 5500
+    },
+    "note": [
+      "Drive-on: pedana 5200 mm, runway singola 630 mm, luce interna regolabile 715–965 mm → carreggiata ruote ammessa 715–2225 mm. Portata 5500 kg.",
+      "Versione assetto; stesso pianale del C450+."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13380",
@@ -864,9 +1087,28 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 4800,
+      "larghezzaRunwayMm": 630,
+      "luceInternaRunwayMm": {
+        "minMm": 656,
+        "maxMm": 906
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1286,
+        "maxMm": 1536
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 656,
+        "maxMm": 2166
+      },
+      "portataKg": 4000
+    },
+    "note": [
+      "Drive-on: pedana 4800 mm, runway singola 630 mm, luce interna regolabile 656–906 mm → carreggiata ruote ammessa 656–2166 mm. Portata 4000 kg.",
+      "Versione assetto (piatti rotanti + piane oscillanti)."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13381",
@@ -892,9 +1134,27 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 4800,
+      "larghezzaRunwayMm": 630,
+      "luceInternaRunwayMm": {
+        "minMm": 740,
+        "maxMm": 990
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1370,
+        "maxMm": 1620
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 740,
+        "maxMm": 2250
+      },
+      "portataKg": 4000
+    },
+    "note": [
+      "Drive-on: pedana 4800 mm, runway singola 630 mm, luce interna regolabile 740–990 mm → carreggiata ruote ammessa 740–2250 mm. Portata 4000 kg."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13442",
@@ -920,9 +1180,28 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 4335,
+      "larghezzaRunwayMm": 500,
+      "luceInternaRunwayMm": {
+        "minMm": 767,
+        "maxMm": 1017
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 1267,
+        "maxMm": 1517
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 767,
+        "maxMm": 2017
+      },
+      "portataKg": 4000
+    },
+    "note": [
+      "Drive-on: pedana 4335 mm, runway singola 500 mm, luce interna regolabile 767–1017 mm → carreggiata ruote ammessa 767–2017 mm. Portata 4000 kg.",
+      "Versione assetto (piane oscillanti a rulli + piatti rotanti): stesso pianale del C440; a catalogo evidenziata luce 1017."
+    ],
+    "status": "verificato"
   },
   {
     "codice": "13988",
@@ -1510,8 +1789,27 @@
       "interasseColonneMm",
       "portataKg"
     ],
-    "verificato": {},
-    "note": [],
-    "status": "todo"
+    "verificato": {
+      "lunghezzaPedanaMm": 4912,
+      "larghezzaRunwayMm": 615,
+      "luceInternaRunwayMm": {
+        "minMm": 350,
+        "maxMm": 400
+      },
+      "interasseRunwayCentriMm": {
+        "minMm": 965,
+        "maxMm": 1015
+      },
+      "carreggiataAmmessaMm": {
+        "minMm": 350,
+        "maxMm": 1630
+      },
+      "portataKg": 5000
+    },
+    "note": [
+      "Drive-on: pedana 4912 mm, runway singola 615 mm, luce interna regolabile 350–400 mm → carreggiata ruote ammessa 350–1630 mm. Portata 5000 kg.",
+      "Incassato a pavimento (sport). Pedana 4912 (nota) / 4700 luce fra colonne a disegno."
+    ],
+    "status": "verificato"
   }
 ]
