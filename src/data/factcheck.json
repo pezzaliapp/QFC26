@@ -1,0 +1,1254 @@
+[
+  {
+    "codice": "13168",
+    "modello": "C3.5",
+    "id": "c35",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos con pedana.pdf",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 2700,
+      "frontArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      },
+      "rearArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2700,
+      "hMin": 120,
+      "hMax": 1970
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13169",
+    "modello": "C3.5S",
+    "id": "c35s",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos senza pedana.pdf",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 2700,
+      "frontArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      },
+      "rearArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2700,
+      "hMin": 100,
+      "hMax": 1970
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {
+      "armMountDistanceMm": 620
+    },
+    "note": [
+      "ESEMPIO: armMountDistanceMm=620 letto dal disegno in pianta (scheda p.7). Override applicato in geometry.js."
+    ],
+    "status": "verificato"
+  },
+  {
+    "codice": "13176",
+    "modello": "C5 Wagon",
+    "id": "c5wagon",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos con pedana.pdf",
+      "pages": [
+        17,
+        18
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 3000,
+      "frontArm": {
+        "minMm": 855,
+        "maxMm": 1810
+      },
+      "rearArm": {
+        "minMm": 855,
+        "maxMm": 1810
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2810,
+      "hMin": 150,
+      "hMax": 2000
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [
+      "Interno colonne: PDF=2810 ≠ note=3000"
+    ],
+    "status": "todo"
+  },
+  {
+    "codice": "13177",
+    "modello": "C5S Wagon",
+    "id": "c5s_wagon",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos senza pedana.pdf",
+      "pages": [
+        17,
+        18
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 3000,
+      "frontArm": {
+        "minMm": 855,
+        "maxMm": 1810
+      },
+      "rearArm": {
+        "minMm": 855,
+        "maxMm": 1810
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 3000,
+      "hMin": 145,
+      "hMax": 1970
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13191",
+    "modello": "C3.5 XL",
+    "id": "c35xl",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos con pedana.pdf",
+      "pages": [
+        11,
+        12
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 3000,
+      "frontArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      },
+      "rearArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 3000,
+      "hMin": 120,
+      "hMax": 1970
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13192",
+    "modello": "C3.5S XL",
+    "id": "c35s_xl",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos senza pedana.pdf",
+      "pages": [
+        11,
+        12
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 3000,
+      "frontArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      },
+      "rearArm": {
+        "minMm": 690,
+        "maxMm": 1325
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 3000,
+      "hMin": 100,
+      "hMax": 1970
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13194",
+    "modello": "C4",
+    "id": "c4",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos con pedana.pdf",
+      "pages": [
+        13,
+        14
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 2700,
+      "frontArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      },
+      "rearArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2700,
+      "hMin": 130,
+      "hMax": 1970
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13198",
+    "modello": "C4 XL",
+    "id": "c4xl",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos con pedana.pdf",
+      "pages": [
+        15,
+        16
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 3000,
+      "frontArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      },
+      "rearArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 3000,
+      "hMin": 130,
+      "hMax": 1970
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13201",
+    "modello": "C5 XL Wagon",
+    "id": "c5xlwagon",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos con pedana.pdf",
+      "pages": [
+        19,
+        20
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 3130,
+      "frontArm": {
+        "minMm": 855,
+        "maxMm": 1810
+      },
+      "rearArm": {
+        "minMm": 855,
+        "maxMm": 1810
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 3130,
+      "hMin": 150,
+      "hMax": 2000
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13331",
+    "modello": "C4100",
+    "id": "c4100",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        49,
+        50
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": null,
+      "hMin": 265,
+      "hMax": null
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13333",
+    "modello": "C470",
+    "id": "c470",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        45,
+        46
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": null,
+      "hMin": 225,
+      "hMax": 1750
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13339",
+    "modello": "C472",
+    "id": "c472",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        47,
+        48
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": null,
+      "hMin": 135,
+      "hMax": 1750
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13340",
+    "modello": "C440",
+    "id": "c440",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": 2325,
+      "hMin": 135,
+      "hMax": null
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13359",
+    "modello": "C445H",
+    "id": "c445h",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        38,
+        39
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": null,
+      "hMin": 195,
+      "hMax": 2000
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13367",
+    "modello": "C455H",
+    "id": "c455h",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        42,
+        43
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": null,
+      "hMin": 195,
+      "hMax": 2000
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13370",
+    "modello": "C443H",
+    "id": "c443h",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        36,
+        37
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": null,
+      "hMin": 195,
+      "hMax": null
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13371",
+    "modello": "C450H",
+    "id": "c450h",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        40,
+        41
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": null,
+      "hMin": 195,
+      "hMax": null
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13376",
+    "modello": "C450 XL",
+    "id": "c450xl",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        12,
+        13
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": null,
+      "hMin": 135,
+      "hMax": null
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13377",
+    "modello": "C455 XL",
+    "id": "c455xl",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        29,
+        30
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": null,
+      "hMin": 185,
+      "hMax": null
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13378",
+    "modello": "C450+",
+    "id": "c450plus",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        18,
+        19
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": 3000,
+      "hMin": 135,
+      "hMax": null
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13379",
+    "modello": "C455+",
+    "id": "c455plus",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        33,
+        34
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": 3000,
+      "hMin": 185,
+      "hMax": 2000
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13380",
+    "modello": "C445",
+    "id": "c445",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        25,
+        26
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": 3000,
+      "hMin": 185,
+      "hMax": null
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13381",
+    "modello": "C443",
+    "id": "c443",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": 3000,
+      "hMin": 135,
+      "hMax": null
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13442",
+    "modello": "C442",
+    "id": "c442",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        23,
+        24
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": 3000,
+      "hMin": 190,
+      "hMax": 1750
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13988",
+    "modello": "C5.5 Wagon",
+    "id": "c55wagon",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos con pedana.pdf",
+      "pages": [
+        23,
+        24
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 2810,
+      "frontArm": {
+        "minMm": 823,
+        "maxMm": 1505
+      },
+      "rearArm": {
+        "minMm": 823,
+        "maxMm": 1505
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2810,
+      "hMin": 155,
+      "hMax": 2000
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13998",
+    "modello": "C5.5",
+    "id": "c55",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos con pedana.pdf",
+      "pages": [
+        21,
+        22
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 2810,
+      "frontArm": {
+        "minMm": 705,
+        "maxMm": 1335
+      },
+      "rearArm": {
+        "minMm": 705,
+        "maxMm": 1335
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2810,
+      "hMin": 110,
+      "hMax": 1910
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13120E",
+    "modello": "C3.2",
+    "id": "c32",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos con pedana.pdf",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 2700,
+      "frontArm": {
+        "minMm": 710,
+        "maxMm": 1050
+      },
+      "rearArm": {
+        "minMm": 710,
+        "maxMm": 1050
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2700,
+      "hMin": 115,
+      "hMax": 270
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13120C",
+    "modello": "C3.2 Confort",
+    "id": "c32_confort",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos con pedana.pdf",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 2700,
+      "frontArm": {
+        "minMm": 597,
+        "maxMm": 1122
+      },
+      "rearArm": {
+        "minMm": 710,
+        "maxMm": 1050
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2700,
+      "hMin": 115,
+      "hMax": 270
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13120SE",
+    "modello": "C3.2S",
+    "id": "c32s",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos senza pedana.pdf",
+      "pages": [
+        1,
+        2
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 2700,
+      "frontArm": {
+        "minMm": 710,
+        "maxMm": 1050
+      },
+      "rearArm": {
+        "minMm": 710,
+        "maxMm": 1050
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2700,
+      "hMin": 100,
+      "hMax": 1960
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13120SC",
+    "modello": "C3.2S Confort",
+    "id": "c32s_confort",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos senza pedana.pdf",
+      "pages": [
+        5,
+        6
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 2700,
+      "frontArm": {
+        "minMm": 597,
+        "maxMm": 1122
+      },
+      "rearArm": {
+        "minMm": 597,
+        "maxMm": 1122
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2700,
+      "hMin": 100,
+      "hMax": 1960
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13194S",
+    "modello": "C4S",
+    "id": "c4s",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos senza pedana.pdf",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 2700,
+      "frontArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      },
+      "rearArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2700,
+      "hMin": 100,
+      "hMax": 1970
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13198S",
+    "modello": "C4S XL",
+    "id": "c4s_xl",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos senza pedana.pdf",
+      "pages": [
+        13,
+        14
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 3000,
+      "frontArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      },
+      "rearArm": {
+        "minMm": 668,
+        "maxMm": 1341
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 3000,
+      "hMin": 100,
+      "hMax": 1970
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13998S",
+    "modello": "C5.5S",
+    "id": "c55s",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos senza pedana.pdf",
+      "pages": [
+        15,
+        16
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 2810,
+      "frontArm": {
+        "minMm": 705,
+        "maxMm": 1335
+      },
+      "rearArm": {
+        "minMm": 705,
+        "maxMm": 1335
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2810,
+      "hMin": 105,
+      "hMax": 1930
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13988S",
+    "modello": "C5.5S Wagon",
+    "id": "c55s_wagon",
+    "tipo": "2_colonne",
+    "pdf": {
+      "file": "cascos senza pedana.pdf",
+      "pages": [
+        19,
+        20
+      ]
+    },
+    "simulatore": {
+      "internalColumnDistanceMm": 2810,
+      "frontArm": {
+        "minMm": 758,
+        "maxMm": 1505
+      },
+      "rearArm": {
+        "minMm": 758,
+        "maxMm": 1505
+      },
+      "armMountDistanceMm": 500,
+      "columnOffsetMm": 120,
+      "template": true
+    },
+    "pdf_auto": {
+      "portale": 2810,
+      "hMin": 150,
+      "hMax": 1970
+    },
+    "da_verificare_visivamente": [
+      "armMountDistanceMm",
+      "columnOffsetMm",
+      "frontArm",
+      "rearArm",
+      "internalColumnDistanceMm"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  },
+  {
+    "codice": "13351FIR",
+    "modello": "C450 TORO",
+    "id": "c450_toro",
+    "tipo": "4_colonne",
+    "pdf": {
+      "file": "cascos 4 colonne.pdf",
+      "pages": [
+        16,
+        17
+      ]
+    },
+    "simulatore": "N/A (4 colonne — modello drive-on, vedi F5)",
+    "pdf_auto": {
+      "portale": 3000,
+      "hMin": 135,
+      "hMax": null
+    },
+    "da_verificare_visivamente": [
+      "lunghezzaPedanaMm",
+      "larghezzaRunwayMm",
+      "interasseColonneMm",
+      "portataKg"
+    ],
+    "verificato": {},
+    "note": [],
+    "status": "todo"
+  }
+]

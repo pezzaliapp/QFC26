@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+
+# Listini prezzi — MAI committare
+*.xlsx
+*.xls
+listino*
+prezzi*
+
+# Listini prezzi — MAI committare
+*.xlsx
+*.xls
+listino*
+prezzi*
+
+# Fact-check: immagini generate dei cataloghi (rigenerabili con scripts/factcheck.mjs)
+factcheck/
